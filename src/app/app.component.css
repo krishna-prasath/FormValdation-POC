@@ -1,0 +1,15 @@
+
+body{
+  height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+app-comp1,app-comp2{
+    height: 100%;
+    width: 50%;
+    border: 2px solid #000 ;
+}
+app-comp1{
+    border-right: none;
+}

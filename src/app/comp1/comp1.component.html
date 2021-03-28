@@ -1,0 +1,18 @@
+<div class="container">
+    <div>
+        <h2>First & Last Name Component</h2>
+        <br>
+        <label>{{lab[0]}}</label>
+        <br>
+        <input [style.borderColor]='checker(firstname)[1]' type="text" #firstname (input)="checker(firstname)" value="{{checker(firstname)[0]| titlecase}}" placeholder="Enter FirstName">  
+        <br>
+        <br>
+        <h3 ></h3>
+    
+        <label>{{lab[1]}}</label>
+        <br>
+        <input [style.borderColor]='checker(lastname)[1]' type="text" #lastname (input)="checker(lastname)" value="{{checker(lastname)[0]| titlecase}}" placeholder="Enter LastName">
+
+    
+    </div>
+</div>
